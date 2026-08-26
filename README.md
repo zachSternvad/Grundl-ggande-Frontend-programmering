@@ -1,1 +1,2 @@
-# Grundl-ggande-Frontend-programmering
+# Grundläggande-Frontend-programmering
+I denna kurs får de studerande börja med att lära sig HTML och CSS för att sedan gå in på ramverk och JavaScript det första "programmeringsspråket som de stöter på i utbildningen. För att göra dem redo inför denna utmaning får de även en datalogiskgrund, för att på så sätt förstå hur man som utvecklare bör förhålla sig till problemlösning och hur man ska tänka när man kommunicerar med en dator.  
