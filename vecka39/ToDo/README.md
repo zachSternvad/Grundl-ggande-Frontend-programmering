@@ -5,3 +5,22 @@
 
 * Peka på dörrklockan som ringer varje gång en tangent trycks ned (onChange):
     onChange={handleChange}
+
+### Etapp 4:
+
+*  Fråga 1 (Git · v35): Du har sparat App.jsx i VS Code och kört git commit. Syns ändringen på GitHub? Vad saknas i så fall?
+    GitHub visar inga ändringar förens du kör "git push" git commit sparas bara lokalt men pushar inte till branchen.
+
+* Fråga 2 (JS · v38): Vad är skillnaden mellan = och === i JavaScript?
+    = Sätter ett värde typ äpple = 1, då har äpple ett värde av 1. Medans === jämför om det är samma värde och typ
+
+* Fråga 3 (Funktioner · v38): Vad är skillnaden mellan att deklarera en funktion och att anropa den? Ge ett kort exempel.
+    Att deklarera en funktion är att skapa funktionen och bestämma vad den ska göra. Att anropa en funktion är att köra den.
+
+    Deklarera:
+    function hej() {
+    console.log("Hej!");
+    }
+
+    Anropa:
+    hej();
