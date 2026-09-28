@@ -17,13 +17,24 @@ function App() {
     setDraft("");
   }
 
+  function handleAdd() {
+    const text = draft.trim();
+    if (text === "") return;
+    setTodos([...todos, text]);
+    setDraft("");
+  }
+
   return (
     <main>
       <h1>Övnings-todo</h1>
       <p>Antal uppgifter: {todos.length}</p>
 
       <input type="text" value={draft} onChange={handleChange} placeholder="Skriv uppgiften....." />
+
+      <button type="button" onClick={handleAdd}>Lägg till</button>
+
       <button type="button" onClick={handleClear}>Rensa</button>
+
       <p>Kladd för nu: {draft}</p>
 
       <ul>
