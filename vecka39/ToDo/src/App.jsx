@@ -18,6 +18,7 @@ function App() {
       <h1>Övnings-todo</h1>
       <p>Antal uppgifter: {todos.length}</p>
 
+
       <input type="text" value={draft} onChange={handleChange} placeholder="Skriv uppgiften....." />
       <p>Kladd för nu: {draft}</p>
 
