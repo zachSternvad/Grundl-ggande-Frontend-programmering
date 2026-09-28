@@ -24,3 +24,13 @@
 
     Anropa:
     hej();
+
+## Workshop 2:
+
+### Etapp 2
+
+* Peka i koden var texten flyttas från kladdlappen (draft) upp till tavlan (todos).
+    setTodos([...todos, text]);
+
+* Förklara varför vi skriver [...todos, text] istället för todos.push(text).
+    [...] skapar en ny array med det gamla innehållet och den nya texten. push() ändrar den gamla arrayen direkt, vilket vi inte ska göra med React state.
