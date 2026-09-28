@@ -37,6 +37,8 @@ function App() {
 
       <p>Kladd för nu: {draft}</p>
 
+
+      {/* TODO: detta skalar inte — behöver loop */}
       <ul>
         <li>{todos[0]}</li>
         <li>{todos[1]}</li>
