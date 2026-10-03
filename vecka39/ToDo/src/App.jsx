@@ -24,6 +24,14 @@ function App() {
     setDraft("");
   }
 
+  function handleRemove(textToRemove) {
+    const kvar = todos.filter(function (todo) {
+      return todo !== textToRemove;
+    });
+    /* Ändra inte state direkt, skapar en ny array istället. */
+    setTodos(kvar);
+  }
+
   return (
     <main>
       <h1>Övnings-todo</h1>
@@ -42,7 +50,8 @@ function App() {
       <ul>
         {todos.map(function (todo) {
           /* key är React:s spårnings-ID — inte texten användaren läser. */
-          return <li key={todo}>{todo}</li>;
+          return <li key={todo}>{todo} <button type="button" onClick={function () { handleRemove(todo); }}>Ta bort</button>
+          </li>;
         })}
       </ul>
     </main>
