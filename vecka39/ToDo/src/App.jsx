@@ -41,6 +41,7 @@ function App() {
       {/* TODO: detta skalar inte — behöver loop */}
       <ul>
         {todos.map(function (todo) {
+          /* key är React:s spårnings-ID — inte texten användaren läser. */
           return <li key={todo}>{todo}</li>;
         })}
       </ul>
